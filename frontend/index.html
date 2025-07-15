@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Domain Availability Checker</h1>
+        <div class="input-group">
+            <input type="text" id="domain-name" placeholder="Enter domain name (e.g., example)">
+            <button id="check-button">Check</button>
+        </div>
+        <div class="tld-selection">
+            <h3>Select TLDs to check:</h3>
+            <label><input type="checkbox" name="tld" value="com" checked> .com</label>
+            <label><input type="checkbox" name="tld" value="net"> .net</label>
+            <label><input type="checkbox" name="tld" value="org"> .org</label>
+            <label><input type="checkbox" name="tld" value="io"> .io</label>
+            <label><input type="checkbox" name="tld" value="co"> .co</label>
+            <label><input type="checkbox" name="tld" value="ai"> .ai</label>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
